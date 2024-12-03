@@ -24,7 +24,6 @@ export default function TodoWrite(){
         <div>
             title : <input type="text" name="title" value={title} onChange={onChage}/>
             <button onClick={onCreate}>등록</button>
-            <button onClick={onCreate}>등록</button>
         </div>
     </>
 }
