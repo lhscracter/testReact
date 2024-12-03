@@ -18,11 +18,12 @@ export default function TodoWrite(){
         
     }
 
-
+    
     return <>
         <h1>Todo Write </h1>
         <div>
             title : <input type="text" name="title" value={title} onChange={onChage}/>
+            <button onClick={onCreate}>등록</button>
             <button onClick={onCreate}>등록</button>
         </div>
     </>
